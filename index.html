@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  
+    <title> O QUE TEM NA FAZENDINHA? </title>
+
+
+</head>
+
+<body>
+
+  <!-- TOPO DA PÁGINA -->
+  
+    <header class="Nav">
+      <h1>  NA FAZENDINHA  </h1>  
+    </header>
+
+
+<!-- Na cidade -->
+
+<section class="cidade">
+    <img src="images/boy3.gif" id="boy">
+</section>
+
+<div class="text"> 
+    <h1> Caio é um garoto de 7 anos que sempre viveu na cidade grande. Cercado de tecnologias não conhecida a fazenda e os sons dos animais. 
+    <a href="#fazendinha" class="botao"> Iniciar história </a> </h1> 
+</div>
+
+
+
+<!-- Na fazenda -->
+ 
+  <!-- Fazendeiro -->
+<section id="fazendinha">
+<section class="fazenda">
+    
+    <div id="cowboy"> </div>
+    <div id="runboy"> </div>
+
+</section>
+
+  <div class="text"> 
+    <h1> O Tio de Caio é fazendeiro no interior da cidade e o convidou para conhecer de perto os animais. </h1> <p>
+      <a href="#cavalo1" class="botao"> Próximo </a> </p>  
+  </div>
+</section>
+
+
+  <!-- Cavalo -->
+<div class="fazenda2">
+    <ul id="cavalo1">
+
+    <li> <img src="images/cavalo.gif" id="cavalo" value="PLAY"  onmouseover="document.getElementById('audio').play()" onmouseout="document.getElementById('audio').pause()">
+        <audio id="audio" src="songs/cavalo.mp3" loop="loop"> </audio>
+    </li>
+    </ul>
+ 
+</div>
+
+<div class="text"> 
+    <h1> Primeiro viu o Cavalo e se encatou com o seu relincho.  </h1> 
+    <p> Passe o mouse em cima do cavalo para ouvir o som. 
+    <a href="#porco1" class="botao"> Próximo </a> </p>
+ </div>
+
+
+  <!-- Porco -->
+<section class="fazenda2">
+    
+ <ul id="porco1">
+    <li><img src="images/porco.gif" id="porco" value="PLAY"  onmouseover="document.getElementById('myaudio').play()" onmouseout="document.getElementById('myaudio').pause()" />
+       <audio id="myaudio" src="songs/porco.mp3" loop="loop"> </audio>
+    </li>
+  </ul>
+
+</section>
+
+<div class="text"> 
+    <h1> Depois foi a vez do porco, que apesar de não ser o mais cheiroso foi bem gracioso e barulhento. </h1> 
+    <p> Escute o porco, passe o mouse.
+    <a href="#galinha" class="botao"> Próximo </a>  </p>
+</div>
+
+  
+  <!-- Galinha -->
+<section id="galinha"> 
+<section class="fazenda2">
+
+
+    <li id="animacao" value="PLAY" onmouseover="document.getElementById('mySoung').play()" onmouseout="document.getElementById('mySoung').pause()">  
+    <audio id="mySoung" src="songs/galinha.mp3" loop="loop"> </audio>
+    </li>
+ 
+
+</section>
+
+<div class="text"> 
+    <h1> Para finalizar o primeiro dia de visitas foi até as galinhas, eram bem maluqinhas o que arrancou risos do Caio. </h1>  <p>
+    <a href="#final" class="botao"> Próximo </a></p>
+</div>
+    
+    
+  
+</section>
+
+
+<!-- Final estória -->
+<section id="final"> 
+<section class="fazenda2">
+   
+   <img src="images/boy3.gif" id="boyfinal">
+
+</section>
+
+<div class="text"> 
+    <h1> Caio agora irá passar as férias escolares no interior para conhecer o resto dos animais.</h1> <p>
+      <a href="index.html" class="botao"> De novo </a> </p>
+</div>
+
+</section>
+
+
+<!-- Rodapé -->
+
+<section> 
+  <div class="footer" id="footer"> 
+
+    <footer> Copyright 2018 - FATEC ARARAS </footer> 
+  
+  </div>
+</section>
+
+
+</body>
+</html>
